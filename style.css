@@ -50,6 +50,9 @@ a:hover{
     bottom: 40px;
 }
 
+
+
+
 @media(min-width: 700px){
     .menu-icon{
         display: none;

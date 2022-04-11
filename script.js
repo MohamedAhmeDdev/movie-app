@@ -87,8 +87,7 @@ function CreateMovieCard(movies){
 
             <p>${movies.date}</p>
             
-            <a href="${movies.link}" class="btn btn-secondary btn-lg disabled button"
-            tabindex="-1" role="button" aria-disabled="true">Watch</a>
+            <a class="btn btn-secondary button" href="${movies.link}" target="_blank" role="button">Link</a>
             </div>
         </div>
     `
