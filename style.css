@@ -12,23 +12,13 @@
 }
 
 .navbar-ul{
+    padding: 5px;
+    gap: 15px;
     position: relative;
     left: 100px;
     display: flex;
 }
 
-li{
-    list-style: none;
-    padding: 10px 30px;
-}
-li a{
-    text-decoration: none;
-    font-size: 20px;
-}
-
-a:hover{
-    color: black;
-}
 
 .menu-icon{
     position: absolute;
@@ -46,7 +36,7 @@ a:hover{
 
 .button{
     position: relative;
-    left: 50px;
+    left: 200px;
     bottom: 40px;
 }
 
@@ -61,7 +51,6 @@ a:hover{
 @media(max-width: 700px){
     .navbar-ul{
         z-index: 1;
-        background-color: gainsboro;
         position: absolute;
         top: 60px;
         left:0;
@@ -70,13 +59,14 @@ a:hover{
         height: 270px;
         display: none;
     }
-    li{
-        border-bottom: 1px solid grey;
-    }
-    li:nth-child(5){
-        border: none;
-    }
     .show{
         display: flex;
     }
 }
+
+
+
+
+
+
+
